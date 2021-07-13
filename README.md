@@ -1,1 +1,1 @@
-# generátor smutné kampaně
+# Generátor Ambiciózní Kampaně

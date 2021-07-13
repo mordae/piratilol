@@ -36,7 +36,7 @@ const initImage = async (customText) => {
     logo.addEventListener("load", () => {
       ctx.drawImage(logo, 525, 20);
       const linkSave = document.getElementById("save");
-      linkSave.setAttribute("download", "PirStanKampan.png");
+      linkSave.setAttribute("download", "EnergieZkusenost.png");
       setTimeout(() => {
         linkSave.setAttribute("href", canvas.toDataURL("image/png").replace("image/png", "image/octet-stream"));
       }, 500);
